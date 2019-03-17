@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script type="text/javascript" src="{{ url_for('static', filename='hello.js') }}"></script>
+</head>
+<body>
+    {% comment %} name is defined in the app.py file {% endcomment %}
+    {% comment %} <h1>Welcome {{ name }}</h1> {% endcomment %}
+    <input type="button" onclick="sayHi()" value="Say HI">
+</body>
+</html>

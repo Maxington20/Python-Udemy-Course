@@ -1,0 +1,2 @@
+This is the text to write into the file
+this is the new line
